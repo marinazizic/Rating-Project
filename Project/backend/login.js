@@ -23,7 +23,7 @@ function showLoginPopup() {
 function validate(){
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
-  if ( username == "midget" && password == "fidget"){
+  if ( username == "midget" && password == "niglet"){
     alert ("Login successfully");
     window.location = "success.html"; // Redirecting to other page.
     return false;
