@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3469;
+const port = 3000;
 const mysql = require('mysql');
 
 // Database connection
@@ -148,5 +148,5 @@ app.delete('/users/:id', async (req, res) => {
 
 // Start server
 app.listen(port, () => {
-  console.log(`Server started on port ${port}`);
+  console.log(`Example app listening on port http://localhost:${port}`);
 });

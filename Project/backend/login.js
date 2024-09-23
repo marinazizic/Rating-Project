@@ -23,6 +23,7 @@ function showLoginPopup() {
 function validate(){
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
+
   
   // Query the database to fetch all users
   fetch('/users')
@@ -50,4 +51,5 @@ function validate(){
       console.error(error);
       alert("Error fetching users");
     });
+
 }
